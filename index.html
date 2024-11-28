@@ -1,61 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>X-GORB blog</title>
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/blog_list.css">
-    <link rel="shortcut icon" href="ico.ico">
+    <title>X-GORB Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- 导航栏 -->
-    <div class="nav">
-        <img src="image/ico.ico" alt="X-GORB LOGO">
-        <span class="title">X-GORB blog</span>
-         <!-- 使用 span 把左右两侧的元素给撑开 -->
-         <span class="spacer"></span>
-        <a href="index.html">主页</a>
-    </div>
-    <!-- 版心 -->
     <div class="container">
-        <!-- 左侧区域，显示用户信息 -->
-        <div class="container-left">
-            <!-- 用户详情 -->
-            <div class="card">
-                <!-- 用户的头像 -->
-                <img src="image/team-member-2.jpg" alt="LOGO">
-                <!-- 用户名 -->
-                <h3>X-GORB</h3>
-                <!-- 其它信息 -->
-                <a href="http://www.xgorb.cn">官方网站</a>
-                <a href="http://icp.xgorb.cn">X-GORB icp备案</a>
-                <a href="http://qadnew.xgorb.cn">X-GORB 资源网</a>
-                <!-- 文章分类 -->
-                <div class="counter">
-                    <span>文章</span>
-                    <span>分类</span>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="https://www.xgorb.cn/team-member-2.jpg" alt="Logo"></a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <div class="dropdown">
+                    <a href="#" style="display: inline;">关于我们</a>
+                    <div class="dropdown-content">
+                        <a href="company.html">公司简介</a>
+                        <a href="teams.html">团队介绍</a>
+                    </div>
                 </div>
-                <div class="counter">
-                    <span>1</span>
-                    <span>1</span>
+                <div class="dropdown">
+                    <a href="#" style="display: inline;">联系方式</a>
+                    <div class="dropdown-content">
+                        <a href="contact.html">联系我们</a>
+                        <a href="partners.html">合作伙伴</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#" style="display: inline;">帮助</a>
+                    <div class="dropdown-content">
+                        <a href="#">常见问题</a>
+                        <a href="#">技术支持</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- 右侧区域，显示博客列表 -->
-        <div class="container-right">
-            <!-- 每个 blog 代表一篇博客 -->
-            <div class="blog">
-                <div class="title">X-GORB工作室博客成立</div>
-                <div class="date">2024/11/5</div>
-                <div class="desc">
-                 在这个充满创意与挑战的时代，我们非常高兴地宣布，X-GORB工作室的官方博客正式上线了！从今天开始，这里将成为我们与大家交流想法、分享经验、探讨行业趋势的重要平台。无论是游戏开发的心得体会，还是技术实现上的小窍门，亦或是项目管理中的智慧火花，我们都会在这里与您一一分享。 
-                </div>
-                <a href="00001.html" class="detail">查看全文&gt;&gt;</a>
-                  </div>  
-                </div>
+        <h1>Blog</h1>
+        <div class="post-box">
+            <div class="post-author">
+                <img src="https://www.xgorb.cn/team-member-2.jpg" alt="Admin Avatar">
+                <span>作者: X-GORB Studio</span>
             </div>
+            <div class="post-content">
+               114514</div>
         </div>
+        <div class="post-box">
+            <div class="post-author">
+                <img src="https://www.xgorb.cn/team-member-2.jpg" alt="Admin Avatar">
+                <span>作者: X-GORB Studio</span>
+            </div>
+            <div class="post-content">
+                你们好！我们是X-GORB工作室            </div>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
